@@ -1,7 +1,7 @@
 # socks5
 Fast experimental socks5 proxy server.
 
-[![latest version](https://img.shields.io/github/v/release/d3vilh/socks5-server?color=%2344cc11&label=LATEST%20RELEASE&style=flat-square&logo=Github)](https://github.com/d3vilh/socks5-server/releases/latest) [![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/d3vilh/socks5-server/latest?logo=docker&label=DOCKER%20IMAGE&color=2344cc11&style=flat-square&logoColor=white)](https://hub.docker.com/r/d3vilh/socks5-server) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/d3vilh/socks5-server/latest?logo=Docker&color=2344cc11&label=IMAGE%20SIZE&style=flat-square&logoColor=white)
+[![latest version](https://img.shields.io/github/v/release/d3vilh/socks5-proxy?color=%2344cc11&label=LATEST%20RELEASE&style=flat-square&logo=Github)](https://github.com/d3vilh/socks5-proxy/releases/latest) [![Docker Image Version (tag latest semver)](https://img.shields.io/docker/v/d3vilh/socks5-proxy/latest?logo=docker&label=DOCKER%20IMAGE&color=2344cc11&style=flat-square&logoColor=white)](https://hub.docker.com/r/d3vilh/socks5-server) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/d3vilh/socks5-proxy/latest?logo=Docker&color=2344cc11&label=IMAGE%20SIZE&style=flat-square&logoColor=white)
 
 
 To run:
