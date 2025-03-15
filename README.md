@@ -1,2 +1,2 @@
 # socks5
-socks5 proxy
+experimental socks5 proxy
