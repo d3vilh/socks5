@@ -53,7 +53,7 @@ func main() {
 		for i, ip := range cfg.AllowedIPs {
 			whitelist[i] = net.ParseIP(ip)
 		}
-		server.SetIPWhitelist(whitelist)
+		//server.SetIPWhitelist(whitelist)
 	}
 
 	log.Printf("Start listening proxy service on port %s\n", cfg.Port)
