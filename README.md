@@ -6,10 +6,10 @@ Fast experimental socks5 proxy server.
 
 To run:
 
-`docker run -d --name socks5 -p 1090:9090 -e PROXY_PORT=9090 d3vilh/socks5-server`
+`docker run -d --name socks5 -p 1090:9090 -e PROXY_PORT=9090 d3vilh/socks5-proxy`
 
 or
-`docker run -d --name socks5 -p 1080:1080 -e PROXY_USER=<PROXY_USER> -e PROXY_PASSWORD=<PROXY_PASSWORD> d3vilh/socks5-server`
+`docker run -d --name socks5 -p 1080:1080 -e PROXY_USER=<PROXY_USER> -e PROXY_PASSWORD=<PROXY_PASSWORD> d3vilh/socks5-proxy`
 
 
 To build the container:
@@ -19,7 +19,7 @@ docker-compose -f docker-compose.build.yml up -d
 To build just image:
 ```shell
 PLATFORM="linux/arm64/v8"
-docker build --progress=plain --platform=$PLATFORM -f Dockerfile -t local/socks5-server:latest .
+docker build --progress=plain --platform=$PLATFORM -f Dockerfile -t local/socks5-proxy:latest .
 ```
 
 # Container ENV parameters
